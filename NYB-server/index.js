@@ -5,7 +5,7 @@ require('dotenv').config();
 // const SSLCommerzPayment = require("sslcommerz-lts");
 
 const app = express();
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 8080;
 
 // middleware
 app.use(cors());
