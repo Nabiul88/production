@@ -6,7 +6,7 @@ import Order from "../pages/Order";
 import ScrollToTop from "../components/ScrollToTop";
 import ContactUs from "../pages/ContactUs";
 import Cart from "../pages/Cart";
-import Dashboard from "../layout/DashBoard";
+import Dashboard from "../layout/Dashboard";
 import ManageItems from "../Dashboard/ManageItems";
 import ManageOrder from "../Dashboard/ManageOrder";
 import Kitchen from "../Dashboard/Kitchen";
