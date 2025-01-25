@@ -5,7 +5,7 @@ require('dotenv').config();
 // const SSLCommerzPayment = require("sslcommerz-lts");
 
 const app = express();
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 5000;
 
 // middleware
 app.use(cors());
@@ -236,7 +236,6 @@ app.get('/', (req, res) => {
     res.send('nyb restaurant server is running.....');
 })
 
-app.listen(port, '0.0.0.0', () => {
+app.listen(port, () => {
     console.log(`nyb restaurant server listening on port ${port}`);
 })
-
